@@ -1,8 +1,8 @@
 /*Java program that prints a Pyramid pattern of asterisks (*) */
 
-public class StarPattern5 {
+public class StarPattern4 {
     public static void main(String[] args) {
-        int lines = 5;  
+        int lines = 4;  
 
         for (int i = 1; i <= lines; i++) {  
             
@@ -11,7 +11,7 @@ public class StarPattern5 {
             }
             
             for (int k = 1; k <= (2 * i - 1); k++) {
-                System.out.print(i); 
+                System.out.print("*"); 
             }
             
             System.out.println();
